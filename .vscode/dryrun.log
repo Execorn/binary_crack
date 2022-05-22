@@ -1,6 +1,5 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Programming/binary_crack'
-make.exe makepch
  
 "tr" �� ���� ����७��� ��� ���譥�
 ��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
@@ -8,13 +7,15 @@ make.exe makepch
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
 sed: -e expression #1, char 1: unknown command: `''
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
-
 "tr" �� ���� ����७��� ��� ���譥�
 ��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
 �� ������ 䠩�: *.cpp
-
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+make.exe makepch
+ 
 sed: -e expression #1, char 1: unknown command: `''
+
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
 
 printf ''
@@ -27,7 +28,6 @@ make.exe -j8 makebuild
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
 
 sed: -e expression #1, char 1: unknown command: `''
-����⪠ ����� � ���������騩 �����.
 FIND: ���ࠢ���� �ଠ� ��ࠬ���
 
 printf '\n\033[0;34m⇛  Linking: bin/Release/game.exe'
