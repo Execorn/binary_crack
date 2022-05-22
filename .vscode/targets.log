@@ -1,0 +1,1613 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+"tr" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+�� ������ 䠩�: *.cpp
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+sed: -e expression #1, char 1: unknown command: `''
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+"tr" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+�� ������ 䠩�: *.cpp
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+sed: -e expression #1, char 1: unknown command: `''
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 22 17:32:05 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# makefile (from 'Makefile', line 124)
+PRODUCTION_MACOS_ICON = icon
+# makefile (from 'Makefile', line 177)
+OBJ_SUBDIRS := 
+# environment
+USERPROFILE = C:\Users\Legion
+# makefile (from 'Makefile', line 274)
+color_blue := \033[0;34m
+# environment
+LOCALAPPDATA = C:\Users\Legion\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3394adab-8f72-4b48-b0e2-2c3093c68595-sock
+# makefile (from 'Makefile', line 87)
+SRC_DIR := src
+# environment
+VSCODE_CWD = C:\Users\Legion\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# makefile (from 'Makefile', line 22)
+SRC_TARGET = 
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from 'Makefile', line 234)
+ASM_COMPILE = objdump -d -C -Mintel $< > $@
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'Makefile', line 205)
+_DIRECTORIES := bin bin/Release bin/Release/dep bin/Release/obj
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 91)
+SOURCE_FILES := 
+# makefile (from 'Makefile', line 171)
+OBJ_DIR := bin/Release/obj
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13028_MBCFNWGQJBATXMOL
+# makefile (from 'env/linux.all.mk', line 19)
+PRODUCTION_LINUX_ICON := sfml
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'Makefile', line 99)
+_LINK_LIBRARIES := -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-window -lsfml-system -lstdc++fs -lX11
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 385)
+define do_copy_to
+	@printf  '$(color_blue)cp -r $(1) $(2)\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile (from 'env/linux.all.mk', line 7)
+INCLUDE_DIRS := /usr/local/include
+# makefile (from 'Makefile', line 128)
+PRODUCTION_MACOS_MAKE_DMG = true
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Legion\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# makefile (from 'Makefile', line 180)
+_DEPS := 
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Legion\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'Makefile', line 126)
+PRODUCTION_MACOS_BUNDLE_DISPLAY_NAME = App
+# makefile
+MAKEFLAGS = pqrR --no-print-directory
+# makefile (from 'Makefile', line 207)
+_CLEAN := true
+# makefile (from 'Makefile', line 277)
+define compile_with
+	$(if $(_CLEAN),@printf '   $(color_blue)$($(2):$(OBJ_DIR)/%=%)\n',@printf '$(color_blue)')
+	$(_Q)$(3) && $(4)
+endef
+# makefile (from 'Makefile', line 175)
+_OBJS := 
+# environment
+ONEDRIVE = C:\Users\Legion\OneDrive
+# makefile
+CURDIR := c:/Programming/binary_crack
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# makefile (from 'Makefile', line 228)
+OBJ_COMPILE_T = $(CC) $(CFLAGS_DEPS_T) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+MFLAGS = -pqrR --no-print-directory
+# makefile (from 'Makefile', line 217)
+RC = windres.exe
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 98)
+_BUILD_MACROS := 
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'env/linux.all.mk', line 10)
+BUILD_FLAGS :=  -pthread
+# makefile (from 'Makefile', line 209)
+_TARGET_DEPS := $(subst ,,   )
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'env/.all.mk', line 28)
+PRODUCTION_DEPENDENCIES := content
+# makefile (from 'env/linux.all.mk', line 22)
+PRODUCTION_LINUX_APP_COMMENT := My SFML Game
+# makefile (from 'env/linux.all.mk', line 1)
+MAKEFILE_LIST := Makefile env/.all.mk env/linux.all.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 13028
+# makefile (from 'Makefile', line 127)
+PRODUCTION_MACOS_BUNDLE_NAME = App
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+POSH_THEMES_PATH = C:\Users\Legion\AppData\Local\Programs\oh-my-posh\themes
+# makefile (from 'env/.all.mk', line 7)
+_CFLAGS_OTHER := -fdiagnostics-color=always
+# makefile (from 'Makefile', line 185)
+_PCH_HFILE := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 189)
+_SYMBOLS := -s
+# makefile (from 'Makefile', line 243)
+UNI_LINK := ⇛
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 179)
+DEP_DIR := bin/Release/dep
+# makefile (from 'Makefile', line 119)
+_LINUX_GREP_CWD := 
+# makefile (from 'Makefile', line 182)
+DEP_SUBDIRS := 
+# makefile (from 'Makefile', line 13)
+PLATFORM = linux
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 176)
+OBJS := 
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Legion
+# default
+MAKECMDGOALS := makepch
+# makefile (from 'Makefile', line 242)
+UNI_COPY := ➦
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# makefile (from 'Makefile', line 186)
+_PCH_EXT := 
+# makefile (from 'env/.all.mk', line 3)
+DUMP_ASSEMBLY := false
+# environment
+MAKELEVEL := 1
+# makefile (from 'Makefile', line 290)
+MKDIR := @mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'Makefile', line 16)
+_BUILDL := 
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\LLVM\bin;C:\Program Files\NASM;C:\Program Files\Git\cmd;C:\Users\Legion\AppData\Local\Microsoft\WindowsApps;C:\Users\Legion\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\MinGW\bin;C:\Program Files\Graphviz\bin;C:\Users\Legion\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Legion\AppData\Local\Programs\oh-my-posh\bin
+# makefile (from 'Makefile', line 74)
+BUILD_MACROS = 
+# environment
+COMPUTERNAME = EXELAND
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 96)
+_INCLUDE_DIRS := -Isrc/ -Ilib/ -I/usr/local/include
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 125)
+PRODUCTION_MACOS_BUNDLE_COMPANY = developer
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132762892791266782
+# makefile (from 'Makefile', line 221)
+CFLAGS_DEPS_T = -MT $@ -MMD -MP -MF $(DEP_DIR)/.$(TEST_DIR)/$*.Td
+# makefile (from 'Makefile', line 282)
+linking_with = 	$(if $(_CLEAN),@printf '\n$(color_blue)$(UNI_LINK)  Linking: $(1)')
+# environment
+LOGONSERVER = \\EXELAND
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 222)
+PCH_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(CFLAGS) $(_INCLUDE_DIRS) -o $@ -c $<
+# environment
+USERNAME = Legion
+# makefile (from 'Makefile', line 37)
+BUILD_STATIC = false
+# makefile (from 'Makefile', line 227)
+OBJ_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 83)
+NAME = game.exe
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 212)
+_Q := @
+# makefile (from 'env/.all.mk', line 2)
+CLEAN_OUTPUT := true
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 236)
+POST_COMPILE = mv -f $(DEP_DIR)/$*.Td $(DEP_DIR)/$*.d && touch $@
+# environment
+USERDOMAIN = EXELAND
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 169)
+_SOURCES_IF_RC := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 93)
+PROJECT_DIRS := 
+# makefile (from 'env/linux.all.mk', line 14)
+LINK_LIBRARIES := sfml-graphics sfml-audio sfml-network sfml-window sfml-system stdc++fs X11
+# makefile (from 'Makefile', line 390)
+copy_to = 	$(if $(wildcard $(2)/$(notdir $(1))),,$(if $(_CLEAN),$(call do_copy_to_clean,$(1),$(2)),$(call do_copy_to,$(1),$(2))))
+# makefile (from 'Makefile', line 286)
+build_deps = 	$(foreach dep,$(BUILD_DEPENDENCIES),$(call copy_to,$(dep),$(BLD_DIR)))
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 129)
+PRODUCTION_MACOS_BACKGROUND = dmg-background
+# makefile (from 'Makefile', line 275)
+color_purple := \033[0;35m
+# makefile (from 'Makefile', line 230)
+RC_COMPILE = -$(RC) -J rc -O coff --preprocessor-arg=-MT --preprocessor-arg=$@ --preprocessor-arg=-MMD --preprocessor-arg=-MP --preprocessor-arg=-MF --preprocessor-arg=$(DEP_DIR)/$*.rc.Td $(_BUILD_MACROS) $(_INCLUDE_DIRS) -i $< -o $@
+# makefile (from 'Makefile', line 187)
+_PCH_COMPILER_EXT := gch
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 2
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 15)
+BUILD = Release
+# makefile (from 'env/.all.mk', line 19)
+PRODUCTION_FOLDER := build
+# makefile (from 'Makefile', line 238)
+POST_COMPILE_RC = mv -f $(DEP_DIR)/$*.rc.Td $(DEP_DIR)/$*.rc.d && touch $@
+# environment
+USERDOMAIN_ROAMINGPROFILE = EXELAND
+# makefile (from 'Makefile', line 103)
+TEST_DIR := 
+# environment
+NUMBER_OF_PROCESSORS = 12
+# makefile (from 'Makefile', line 254)
+ORIGIN_FLAG := '-Wl,-R$$ORIGIN'
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 167)
+_LIB_DIRS := -Llib/ -L/usr/local/lib
+# makefile (from 'env/.all.mk', line 5)
+_CFLAGS_STD := -std=c++17
+# environment
+APPDATA = C:\Users\Legion\AppData\Roaming
+# makefile (from 'env/linux.all.mk', line 2)
+CFLAGS := -std=c++17 -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr -fdiagnostics-color=always -fpic
+# environment
+HOMEDRIVE = C:
+# makefile (from 'env/linux.all.mk', line 21)
+PRODUCTION_LINUX_APP_NAME := SFML Boilerplate
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'env/linux.all.mk', line 4)
+LIB_DIRS := /usr/local/lib
+# makefile (from 'Makefile', line 192)
+_PCH := 
+# makefile (from 'Makefile', line 60)
+PRODUCTION_FOLDER_RESOURCES := build
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'env/.all.mk', line 1)
+MAX_PARALLEL_JOBS := 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Legion\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c84a41c3f93bbe343a986161ef35dfbc-1.67.2-main-sock
+# makefile (from 'Makefile', line 220)
+CFLAGS_DEPS = -MT $@ -MMD -MP -MF $(DEP_DIR)/$*.Td
+# makefile (from 'env/.all.mk', line 21)
+PRODUCTION_EXCLUDE := *.psd *.rar *.7z Thumbs.db .DS_Store
+# makefile (from 'Makefile', line 153)
+BLD_DIR := bin/Release
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 79)
+BUILD_DEPENDENCIES = 
+# makefile (from 'Makefile', line 181)
+DEPS :=  bin/Release/dep/PCH.d
+# makefile (from 'Makefile', line 2)
+SUFFIXES = 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 162)
+TARGET := bin/Release/game.exe
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 154)
+_BASENAME := game
+# makefile (from 'env/.all.mk', line 17)
+PRECOMPILED_HEADER := PCH
+# makefile (from 'env/.all.mk', line 6)
+_CFLAGS_WARNINGS := -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr
+# makefile (from 'Makefile', line 88)
+LIB_DIR := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 5000
+# makefile (from 'env/linux.all.mk', line 1)
+CC := g++
+# makefile (from 'Makefile', line 380)
+define do_copy_to_clean
+	@printf  '$(color_blue)$(UNI_COPY)  Copying \"$(1)\" to \"$(CURDIR)/$(2)\"\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# makefile (from 'Makefile', line 237)
+POST_COMPILE_T = mv -f $(DEP_DIR)/.$(TEST_DIR)/$*.Td $(DEP_DIR)/.$(TEST_DIR)/$*.d && touch $@
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=184/1024=18%, Rehash=0, Collisions=42/439=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# bin/Release/dep/.: could not be stat'd.
+# bin/Release/obj: could not be stat'd.
+# / (key c:/, mtime 315522000): No files, no impossibilities so far.
+# src (key c:/Programming/binary_crack/src, mtime 1653229762): No files, no impossibilities so far.
+# . (key c:/Programming/binary_crack, mtime 1653229362): 15 files, no impossibilities.
+# bin/Release/dep: could not be stat'd.
+
+# 15 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+bin/Release/obj/%.o: src/% | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 307):
+	$(call compile_with,@,<,$(OBJ_COMPILE),$(POST_COMPILE))
+
+bin/Release/obj/./%.o: /% | bin/Release/dep/./%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 310):
+	$(call compile_with,@,<,$(OBJ_COMPILE_T),$(POST_COMPILE_T))
+
+bin/Release/obj/%..gch: src/%. | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 313):
+	$(call compile_with,@,<,$(PCH_COMPILE),$(POST_COMPILE))
+
+bin/Release/obj/%.res: src/%.rc | bin/Release/dep/%.rc.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 316):
+	$(call compile_with,@,<,$(RC_COMPILE),$(POST_COMPILE_RC))
+
+/%.o.asm: bin/Release/obj/%.o
+#  recipe to execute (from 'Makefile', line 319):
+	$(if $(_CLEAN),@printf '   $(color_purple)$@\n')
+	$(_Q)$(ASM_COMPILE)
+
+bin/Release/lib%-s.a:
+#  recipe to execute (from 'Makefile', line 323):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $@
+	$(_Q)ar -c -r -s $@ $(OBJS)
+	@printf '\n'
+
+bin/Release/dep/%.d:
+#  recipe to execute (from 'Makefile', line 468):
+	
+
+%.c:
+
+%.cpp:
+
+%.h:
+
+%.hpp:
+
+%.rc:
+
+%.res:
+
+%.inl:
+
+%.o:
+
+%.d:
+
+%.asm:
+
+# 17 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.all.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 10:09:48
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+makeproduction: rmprod mkdirprod releasetoprod
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 432):
+	@printf '   $(color_blue)Adding dynamic libraries & project dependencies...\n'
+	$(foreach dep,$(PRODUCTION_DEPENDENCIES),$(call copy_to,$(dep),$(PRODUCTION_FOLDER_RESOURCES)))
+	$(foreach excl,$(PRODUCTION_EXCLUDE),$(shell find "$(PRODUCTION_FOLDER_RESOURCES)" -name '$(excl)' -delete))
+
+.PRECIOUS: bin/Release/dep/%.d
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.so:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 335):
+	$(call linking_with,$@)
+	$(_Q)$(CC) -shared $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 11:36:50
+#  File has been updated.
+#  Successfully updated.
+
+bin/Release/game.dylib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 340):
+	$(call linking_with,$(BLD_DIR)/$(_BASENAME).dylib)
+	$(_Q)$(CC) -dynamiclib -undefined suppress -flat_namespace $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+mkdirprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 377):
+	$(MKDIR) "$(PRODUCTION_FOLDER)"
+
+# Not a target:
+.asm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.DELETE_ON_ERROR: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+buildprod: all makeproduction
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 361):
+	$(if $(_CLEAN),@printf '   $(color_blue)Cleaning old build files & folders...\n\n',@printf '$(color_blue)')
+	$(_Q)$(RM) $(TARGET) $(DEPS) $(OBJS)
+
+bin/Release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+bin/Release/game.exe:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 345):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+
+makebuild: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 298):
+	@printf '   $(color_blue)Target is up to date.\n'
+
+# Not a target:
+env/linux..mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 262):
+	@$(MAKE) makepch
+	@$(MAKE) -j$(MAX_PARALLEL_JOBS) makebuild
+
+rmprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 369):
+	@printf '\n'
+	-$(_Q)rm -rf "$(if $(filter osx,$(PLATFORM)),$(PRODUCTION_FOLDER_MACOS),$(PRODUCTION_FOLDER))"
+	-$(_Q)rm -rf ~/.local/share/applications/$(NAME).desktop
+
+# Not a target:
+.res:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.all.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 10:09:48
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.d:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makepch:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := makepch
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 293):
+	@printf ''
+
+# Not a target:
+.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/..mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+releasetoprod: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 409):
+	$(_Q)cp $(TARGET) "$(PRODUCTION_FOLDER)"
+	$(_Q)cp "env/linux/$(PRODUCTION_LINUX_ICON).png" "$(PRODUCTION_FOLDER)/$(PRODUCTION_LINUX_ICON).png"
+	$(_Q)cp "env/linux/exec.desktop" "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Exec=.*/Exec=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Path=.*/Path=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Name=.*/Name=$(PRODUCTION_LINUX_APP_NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Comment=.*/Comment=$(PRODUCTION_LINUX_APP_COMMENT)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Icon=.*/Icon=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(PRODUCTION_LINUX_ICON).png/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME)"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	@printf '   Applications directory does not exist, not copying desktop file.\n'
+
+bin/Release/game:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 351):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+
+.SUFFIXES: .c .cpp .h .hpp .rc .res .inl .o .d .asm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.rc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: rebuild buildprod makepch makebuild clean rmprod mkdirprod releasetoprod makeproduction
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/Release/dep/%.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.dll:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 329):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $(BLD_DIR)/$(_BASENAME).def $(BLD_DIR)/$(_BASENAME).a
+	$(_Q)$(CC) -shared -Wl,--output-def="$(BLD_DIR)/$(_BASENAME).def" -Wl,--out-implib="$(BLD_DIR)/$(_BASENAME).a" -Wl,--dll $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+# files hash-table stats:
+# Load=40/1024=4%, Rehash=0, Collisions=3/189=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 77 / storage = 770 B / avg = 10 B
+# current buf: size = 8162 B / used = 770 B / count = 77 / avg = 10 B
+
+# strcache performance: lookups = 172 / hit rate = 55%
+# hash-table stats:
+# Load=77/8192=1%, Rehash=0, Collisions=1/172=1%
+# Finished Make data base on Sun May 22 17:32:05 2022
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 22 17:32:05 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# makefile (from 'Makefile', line 124)
+PRODUCTION_MACOS_ICON = icon
+# makefile (from 'Makefile', line 177)
+OBJ_SUBDIRS := 
+# environment
+USERPROFILE = C:\Users\Legion
+# makefile (from 'Makefile', line 274)
+color_blue := \033[0;34m
+# environment
+LOCALAPPDATA = C:\Users\Legion\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3394adab-8f72-4b48-b0e2-2c3093c68595-sock
+# makefile (from 'Makefile', line 87)
+SRC_DIR := src
+# environment
+VSCODE_CWD = C:\Users\Legion\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# makefile (from 'Makefile', line 22)
+SRC_TARGET = 
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from 'Makefile', line 234)
+ASM_COMPILE = objdump -d -C -Mintel $< > $@
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'Makefile', line 205)
+_DIRECTORIES := bin bin/Release bin/Release/dep bin/Release/obj
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 91)
+SOURCE_FILES := 
+# makefile (from 'Makefile', line 171)
+OBJ_DIR := bin/Release/obj
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13028_MBCFNWGQJBATXMOL
+# makefile (from 'env/linux.all.mk', line 19)
+PRODUCTION_LINUX_ICON := sfml
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'Makefile', line 99)
+_LINK_LIBRARIES := -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-window -lsfml-system -lstdc++fs -lX11
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 385)
+define do_copy_to
+	@printf  '$(color_blue)cp -r $(1) $(2)\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile (from 'env/linux.all.mk', line 7)
+INCLUDE_DIRS := /usr/local/include
+# makefile (from 'Makefile', line 128)
+PRODUCTION_MACOS_MAKE_DMG = true
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Legion\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# makefile (from 'Makefile', line 180)
+_DEPS := 
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Legion\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'Makefile', line 126)
+PRODUCTION_MACOS_BUNDLE_DISPLAY_NAME = App
+# makefile
+MAKEFLAGS = pqrR --no-print-directory
+# makefile (from 'Makefile', line 207)
+_CLEAN := true
+# makefile (from 'Makefile', line 277)
+define compile_with
+	$(if $(_CLEAN),@printf '   $(color_blue)$($(2):$(OBJ_DIR)/%=%)\n',@printf '$(color_blue)')
+	$(_Q)$(3) && $(4)
+endef
+# makefile (from 'Makefile', line 175)
+_OBJS := 
+# environment
+ONEDRIVE = C:\Users\Legion\OneDrive
+# makefile
+CURDIR := c:/Programming/binary_crack
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# makefile (from 'Makefile', line 228)
+OBJ_COMPILE_T = $(CC) $(CFLAGS_DEPS_T) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+MFLAGS = -pqrR --no-print-directory
+# makefile (from 'Makefile', line 217)
+RC = windres.exe
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 98)
+_BUILD_MACROS := 
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'env/linux.all.mk', line 10)
+BUILD_FLAGS :=  -pthread
+# makefile (from 'Makefile', line 209)
+_TARGET_DEPS := $(subst ,,   )
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'env/.all.mk', line 28)
+PRODUCTION_DEPENDENCIES := content
+# makefile (from 'env/linux.all.mk', line 22)
+PRODUCTION_LINUX_APP_COMMENT := My SFML Game
+# makefile (from 'env/linux.all.mk', line 1)
+MAKEFILE_LIST := Makefile env/.all.mk env/linux.all.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 13028
+# makefile (from 'Makefile', line 127)
+PRODUCTION_MACOS_BUNDLE_NAME = App
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+POSH_THEMES_PATH = C:\Users\Legion\AppData\Local\Programs\oh-my-posh\themes
+# makefile (from 'env/.all.mk', line 7)
+_CFLAGS_OTHER := -fdiagnostics-color=always
+# makefile (from 'Makefile', line 185)
+_PCH_HFILE := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 189)
+_SYMBOLS := -s
+# makefile (from 'Makefile', line 243)
+UNI_LINK := ⇛
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 179)
+DEP_DIR := bin/Release/dep
+# makefile (from 'Makefile', line 119)
+_LINUX_GREP_CWD := 
+# makefile (from 'Makefile', line 182)
+DEP_SUBDIRS := 
+# makefile (from 'Makefile', line 13)
+PLATFORM = linux
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 176)
+OBJS := 
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Legion
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 242)
+UNI_COPY := ➦
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# makefile (from 'Makefile', line 186)
+_PCH_EXT := 
+# makefile (from 'env/.all.mk', line 3)
+DUMP_ASSEMBLY := false
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 290)
+MKDIR := @mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'Makefile', line 16)
+_BUILDL := 
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\LLVM\bin;C:\Program Files\NASM;C:\Program Files\Git\cmd;C:\Users\Legion\AppData\Local\Microsoft\WindowsApps;C:\Users\Legion\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\MinGW\bin;C:\Program Files\Graphviz\bin;C:\Users\Legion\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Legion\AppData\Local\Programs\oh-my-posh\bin
+# makefile (from 'Makefile', line 74)
+BUILD_MACROS = 
+# environment
+COMPUTERNAME = EXELAND
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 96)
+_INCLUDE_DIRS := -Isrc/ -Ilib/ -I/usr/local/include
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 125)
+PRODUCTION_MACOS_BUNDLE_COMPANY = developer
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132762892791266782
+# makefile (from 'Makefile', line 221)
+CFLAGS_DEPS_T = -MT $@ -MMD -MP -MF $(DEP_DIR)/.$(TEST_DIR)/$*.Td
+# makefile (from 'Makefile', line 282)
+linking_with = 	$(if $(_CLEAN),@printf '\n$(color_blue)$(UNI_LINK)  Linking: $(1)')
+# environment
+LOGONSERVER = \\EXELAND
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 222)
+PCH_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(CFLAGS) $(_INCLUDE_DIRS) -o $@ -c $<
+# environment
+USERNAME = Legion
+# makefile (from 'Makefile', line 37)
+BUILD_STATIC = false
+# makefile (from 'Makefile', line 227)
+OBJ_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 83)
+NAME = game.exe
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 212)
+_Q := @
+# makefile (from 'env/.all.mk', line 2)
+CLEAN_OUTPUT := true
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 236)
+POST_COMPILE = mv -f $(DEP_DIR)/$*.Td $(DEP_DIR)/$*.d && touch $@
+# environment
+USERDOMAIN = EXELAND
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 169)
+_SOURCES_IF_RC := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 93)
+PROJECT_DIRS := 
+# makefile (from 'env/linux.all.mk', line 14)
+LINK_LIBRARIES := sfml-graphics sfml-audio sfml-network sfml-window sfml-system stdc++fs X11
+# makefile (from 'Makefile', line 390)
+copy_to = 	$(if $(wildcard $(2)/$(notdir $(1))),,$(if $(_CLEAN),$(call do_copy_to_clean,$(1),$(2)),$(call do_copy_to,$(1),$(2))))
+# makefile (from 'Makefile', line 286)
+build_deps = 	$(foreach dep,$(BUILD_DEPENDENCIES),$(call copy_to,$(dep),$(BLD_DIR)))
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 129)
+PRODUCTION_MACOS_BACKGROUND = dmg-background
+# makefile (from 'Makefile', line 275)
+color_purple := \033[0;35m
+# makefile (from 'Makefile', line 230)
+RC_COMPILE = -$(RC) -J rc -O coff --preprocessor-arg=-MT --preprocessor-arg=$@ --preprocessor-arg=-MMD --preprocessor-arg=-MP --preprocessor-arg=-MF --preprocessor-arg=$(DEP_DIR)/$*.rc.Td $(_BUILD_MACROS) $(_INCLUDE_DIRS) -i $< -o $@
+# makefile (from 'Makefile', line 187)
+_PCH_COMPILER_EXT := gch
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 2
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 15)
+BUILD = Release
+# makefile (from 'env/.all.mk', line 19)
+PRODUCTION_FOLDER := build
+# makefile (from 'Makefile', line 238)
+POST_COMPILE_RC = mv -f $(DEP_DIR)/$*.rc.Td $(DEP_DIR)/$*.rc.d && touch $@
+# environment
+USERDOMAIN_ROAMINGPROFILE = EXELAND
+# makefile (from 'Makefile', line 103)
+TEST_DIR := 
+# environment
+NUMBER_OF_PROCESSORS = 12
+# makefile (from 'Makefile', line 254)
+ORIGIN_FLAG := '-Wl,-R$$ORIGIN'
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 167)
+_LIB_DIRS := -Llib/ -L/usr/local/lib
+# makefile (from 'env/.all.mk', line 5)
+_CFLAGS_STD := -std=c++17
+# environment
+APPDATA = C:\Users\Legion\AppData\Roaming
+# makefile (from 'env/linux.all.mk', line 2)
+CFLAGS := -std=c++17 -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr -fdiagnostics-color=always -fpic
+# environment
+HOMEDRIVE = C:
+# makefile (from 'env/linux.all.mk', line 21)
+PRODUCTION_LINUX_APP_NAME := SFML Boilerplate
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'env/linux.all.mk', line 4)
+LIB_DIRS := /usr/local/lib
+# makefile (from 'Makefile', line 192)
+_PCH := 
+# makefile (from 'Makefile', line 60)
+PRODUCTION_FOLDER_RESOURCES := build
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'env/.all.mk', line 1)
+MAX_PARALLEL_JOBS := 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Legion\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c84a41c3f93bbe343a986161ef35dfbc-1.67.2-main-sock
+# makefile (from 'Makefile', line 220)
+CFLAGS_DEPS = -MT $@ -MMD -MP -MF $(DEP_DIR)/$*.Td
+# makefile (from 'env/.all.mk', line 21)
+PRODUCTION_EXCLUDE := *.psd *.rar *.7z Thumbs.db .DS_Store
+# makefile (from 'Makefile', line 153)
+BLD_DIR := bin/Release
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 79)
+BUILD_DEPENDENCIES = 
+# makefile (from 'Makefile', line 181)
+DEPS :=  bin/Release/dep/PCH.d
+# makefile (from 'Makefile', line 2)
+SUFFIXES = 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 162)
+TARGET := bin/Release/game.exe
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 154)
+_BASENAME := game
+# makefile (from 'env/.all.mk', line 17)
+PRECOMPILED_HEADER := PCH
+# makefile (from 'env/.all.mk', line 6)
+_CFLAGS_WARNINGS := -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr
+# makefile (from 'Makefile', line 88)
+LIB_DIR := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 5000
+# makefile (from 'env/linux.all.mk', line 1)
+CC := g++
+# makefile (from 'Makefile', line 380)
+define do_copy_to_clean
+	@printf  '$(color_blue)$(UNI_COPY)  Copying \"$(1)\" to \"$(CURDIR)/$(2)\"\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# makefile (from 'Makefile', line 237)
+POST_COMPILE_T = mv -f $(DEP_DIR)/.$(TEST_DIR)/$*.Td $(DEP_DIR)/.$(TEST_DIR)/$*.d && touch $@
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=184/1024=18%, Rehash=0, Collisions=42/442=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# bin/Release/dep/.: could not be stat'd.
+# bin/Release/obj: could not be stat'd.
+# / (key c:/, mtime 315522000): No files, no impossibilities so far.
+# src (key c:/Programming/binary_crack/src, mtime 1653229762): No files, no impossibilities so far.
+# . (key c:/Programming/binary_crack, mtime 1653229362): 15 files, no impossibilities.
+# bin/Release/dep: could not be stat'd.
+
+# 15 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+bin/Release/obj/%.o: src/% | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 307):
+	$(call compile_with,@,<,$(OBJ_COMPILE),$(POST_COMPILE))
+
+bin/Release/obj/./%.o: /% | bin/Release/dep/./%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 310):
+	$(call compile_with,@,<,$(OBJ_COMPILE_T),$(POST_COMPILE_T))
+
+bin/Release/obj/%..gch: src/%. | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 313):
+	$(call compile_with,@,<,$(PCH_COMPILE),$(POST_COMPILE))
+
+bin/Release/obj/%.res: src/%.rc | bin/Release/dep/%.rc.d bin bin/Release bin/Release/dep bin/Release/obj
+#  recipe to execute (from 'Makefile', line 316):
+	$(call compile_with,@,<,$(RC_COMPILE),$(POST_COMPILE_RC))
+
+/%.o.asm: bin/Release/obj/%.o
+#  recipe to execute (from 'Makefile', line 319):
+	$(if $(_CLEAN),@printf '   $(color_purple)$@\n')
+	$(_Q)$(ASM_COMPILE)
+
+bin/Release/lib%-s.a:
+#  recipe to execute (from 'Makefile', line 323):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $@
+	$(_Q)ar -c -r -s $@ $(OBJS)
+	@printf '\n'
+
+bin/Release/dep/%.d:
+#  recipe to execute (from 'Makefile', line 468):
+	
+
+%.c:
+
+%.cpp:
+
+%.h:
+
+%.hpp:
+
+%.rc:
+
+%.res:
+
+%.inl:
+
+%.o:
+
+%.d:
+
+%.asm:
+
+# 17 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.all.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 10:09:48
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+makeproduction: rmprod mkdirprod releasetoprod
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 432):
+	@printf '   $(color_blue)Adding dynamic libraries & project dependencies...\n'
+	$(foreach dep,$(PRODUCTION_DEPENDENCIES),$(call copy_to,$(dep),$(PRODUCTION_FOLDER_RESOURCES)))
+	$(foreach excl,$(PRODUCTION_EXCLUDE),$(shell find "$(PRODUCTION_FOLDER_RESOURCES)" -name '$(excl)' -delete))
+
+.PRECIOUS: bin/Release/dep/%.d
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.so:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 335):
+	$(call linking_with,$@)
+	$(_Q)$(CC) -shared $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 11:36:50
+#  File has been updated.
+#  Successfully updated.
+
+bin/Release/game.dylib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 340):
+	$(call linking_with,$(BLD_DIR)/$(_BASENAME).dylib)
+	$(_Q)$(CC) -dynamiclib -undefined suppress -flat_namespace $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+mkdirprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 377):
+	$(MKDIR) "$(PRODUCTION_FOLDER)"
+
+# Not a target:
+.asm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.DELETE_ON_ERROR: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+buildprod: all makeproduction
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 361):
+	$(if $(_CLEAN),@printf '   $(color_blue)Cleaning old build files & folders...\n\n',@printf '$(color_blue)')
+	$(_Q)$(RM) $(TARGET) $(DEPS) $(OBJS)
+
+bin/Release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+bin/Release/game.exe:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 345):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+
+makebuild: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 298):
+	@printf '   $(color_blue)Target is up to date.\n'
+
+# Not a target:
+env/linux..mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/16=25%
+#  recipe to execute (from 'Makefile', line 262):
+	@$(MAKE) makepch
+	@$(MAKE) -j$(MAX_PARALLEL_JOBS) makebuild
+
+rmprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 369):
+	@printf '\n'
+	-$(_Q)rm -rf "$(if $(filter osx,$(PLATFORM)),$(PRODUCTION_FOLDER_MACOS),$(PRODUCTION_FOLDER))"
+	-$(_Q)rm -rf ~/.local/share/applications/$(NAME).desktop
+
+# Not a target:
+.res:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.all.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-22 10:09:48
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.d:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makepch:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 293):
+	@printf ''
+
+# Not a target:
+.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/..mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+releasetoprod: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 409):
+	$(_Q)cp $(TARGET) "$(PRODUCTION_FOLDER)"
+	$(_Q)cp "env/linux/$(PRODUCTION_LINUX_ICON).png" "$(PRODUCTION_FOLDER)/$(PRODUCTION_LINUX_ICON).png"
+	$(_Q)cp "env/linux/exec.desktop" "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Exec=.*/Exec=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Path=.*/Path=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Name=.*/Name=$(PRODUCTION_LINUX_APP_NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Comment=.*/Comment=$(PRODUCTION_LINUX_APP_COMMENT)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Icon=.*/Icon=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(PRODUCTION_LINUX_ICON).png/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME)"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	@printf '   Applications directory does not exist, not copying desktop file.\n'
+
+bin/Release/game:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 351):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+
+.SUFFIXES: .c .cpp .h .hpp .rc .res .inl .o .d .asm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.rc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: rebuild buildprod makepch makebuild clean rmprod mkdirprod releasetoprod makeproduction
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/Release/dep/%.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.dll:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 329):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $(BLD_DIR)/$(_BASENAME).def $(BLD_DIR)/$(_BASENAME).a
+	$(_Q)$(CC) -shared -Wl,--output-def="$(BLD_DIR)/$(_BASENAME).def" -Wl,--out-implib="$(BLD_DIR)/$(_BASENAME).a" -Wl,--dll $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+
+# files hash-table stats:
+# Load=40/1024=4%, Rehash=0, Collisions=3/190=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 77 / storage = 770 B / avg = 10 B
+# current buf: size = 8162 B / used = 770 B / count = 77 / avg = 10 B
+
+# strcache performance: lookups = 172 / hit rate = 55%
+# hash-table stats:
+# Load=77/8192=1%, Rehash=0, Collisions=1/172=1%
+# Finished Make data base on Sun May 22 17:32:05 2022
+
+ 

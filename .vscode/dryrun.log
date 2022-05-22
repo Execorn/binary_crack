@@ -1,0 +1,38 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Programming/binary_crack'
+make.exe makepch
+ 
+"tr" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+�� ������ 䠩�: *.cpp
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+sed: -e expression #1, char 1: unknown command: `''
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+"tr" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+�� ������ 䠩�: *.cpp
+
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+sed: -e expression #1, char 1: unknown command: `''
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+printf ''
+make.exe -j8 makebuild
+ 
+"tr" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+�� ������ 䠩�: *.cpp
+
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+sed: -e expression #1, char 1: unknown command: `''
+����⪠ ����� � ���������騩 �����.
+FIND: ���ࠢ���� �ଠ� ��ࠬ���
+
+printf '\n\033[0;34m⇛  Linking: bin/Release/game.exe'
+g++ -Llib/ -L/usr/local/lib -s -o bin/Release/game.exe '-Wl,-R$ORIGIN'  -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-window -lsfml-system -lstdc++fs -lX11  -pthread
+printf '\n'
+printf '   \033[0;34mTarget is up to date.\n'
+make: Leaving directory 'c:/Programming/binary_crack'
+ 
