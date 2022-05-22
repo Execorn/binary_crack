@@ -11,3 +11,8 @@ Thumbs.db
 
 # Project specific
 #
+dryrun.log
+targets.log
+binary.id*
+*.nam
+*.til
