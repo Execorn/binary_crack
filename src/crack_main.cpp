@@ -44,12 +44,13 @@ int main() {
     size_t counter   = 0;
     size_t shown     = 0;
     bool do_gif      = false;
-
     char cur_img_name[40] = {0};
 
     sf::Font font;
     font.loadFromFile("img/reg.ttf");
 
+    //----------------------------------------------------------------
+    // creating labels
     sf::Text help_label  = {};
     help_label.setFont(font);
     help_label.setCharacterSize(30);
@@ -64,9 +65,11 @@ int main() {
     crack_label.setString("CRACKED!");
     crack_label.setPosition(165, 0);
     crack_label.setFillColor(sf::Color::Red);
-
+    //---------------------------------------------------------------
     sf::Text label = help_label;
 
+    //---------------------------------------------------------------
+    // main loop, run until window is open
 	while (patch_window.isOpen() == true) {
         if (do_gif == true) {
             if (counter == 35) {
@@ -78,6 +81,7 @@ int main() {
 
                 background_texture.loadFromFile(background_image_path);
             } else {
+                // creating file name
                 snprintf(cur_img_name, 40, "img/frame_%u_delay-0.05s.png", counter);
                 if (!background_texture.loadFromFile(cur_img_name)) {
                     fprintf(stderr, "Error loading background.\n");
@@ -85,12 +89,14 @@ int main() {
                 }
                 background_sprite.setTexture(background_texture);
                 ++shown;
-                if (shown >= 4) {
+                if (shown >= 6) {
                     ++counter;
                     shown = 0;
                 }
             }
         }
+
+        // processing keyboard events
 		while (patch_window.pollEvent(patch_window_event)) {
 			switch (patch_window_event.type) {
 				case sf::Event::Closed: {
@@ -117,6 +123,8 @@ int main() {
 				}
 			}
 		}
+
+        // draw everything
         patch_window.clear();
         patch_window.draw(background_sprite);
         patch_window.draw(label);
@@ -156,7 +164,7 @@ void PatchBinary(const char* filename) {
     }
     fclose(source_file_stream);
 
-    buffer[4643] -= 5;
+    buffer[0x1223] -= 5;
 
     FILE* new_source = fopen(patched_binary_filepath, "wb");
     if (new_source == NULL) {
